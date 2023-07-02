@@ -1,14 +1,14 @@
 
 class Node(object): #More of Classes and Objects>>Please refer to https://www.w3schools.com/python/python_classes.asp
 
-	def __init__(self, data): # This class node represnt a single linkedlist
+	def __init__(self, data): # This class node represents a single linkedlist
 		self.data = data; # 'data' represent the actual data to be stored in the list
 		self.nextNode = None; # .nextNode represent the link to next node in the linkedlist
 		
 class LinkedList(object):
 #use the __init__ to reference the first node of the linkedlist; 
 	def __init__(self): 
-		self.head = None; # At the begining it is None, because it is empty list
+		self.head = None; # At the beginning it is None, because it is empty list
 		self.size = 0; # No items in the linkedlist
 		
 	# O(1) !!! Can you guess why we like LinkedLists? :)	
