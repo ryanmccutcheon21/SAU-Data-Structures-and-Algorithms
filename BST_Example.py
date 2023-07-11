@@ -1,4 +1,3 @@
-#Dr. Ahmad Al-Shami, SAU, 09/2020
 #MCIS 5313 DS&A
 #Binary Search Tree: insertion, deletion, Min-Max and traversal
 
@@ -20,7 +19,7 @@ class BinarySearchTree(object):
 		else:
 			self.insertNode(data, self.root);
 			
-	# O(logN)   if the tree is balanced !!!!!!!!!!!!!  --> it can reduced to O(N) --> AVL RBT are needed !!!!!
+	# O(logN)   if the tree is balanced !!!!!!!!!!!!!  --> it can reduce to O(N) --> AVL RBT are needed !!!!!
 	def insertNode(self, data, node):
 	
 		if data < node.data:
